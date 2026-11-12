@@ -1,0 +1,2 @@
+nSpinnerEdges,nCortical,MedianRankAbsT,BestRankAbsT,nEdges_p_lt_0p001,nSpinner_p_lt_0p001,ExpectedIfRandom,HypergeomP,nSpinnerFDR05,nSpinnerTpos,MedianCPMSelFreq,MeanCPMSelFreqOthers,SpearmanFreqVsAbsT
+42,41,1041,1,11,7,0.0202711596682901,1.39855448846112e-17,0,20,0.08,0.0143663457734406,0.167696258665554

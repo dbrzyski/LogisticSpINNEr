@@ -25,6 +25,7 @@ in the manuscript. Large result files are not included; every one of them can be
 | [`fig4_solver_timing/`](fig4_solver_timing/) | Fig. 4: computation time of the IRLS solvers | `software/` |
 | [`simulation_prediction/`](simulation_prediction/) | Section IV-F: out-of-sample AUC in simulation | `software_84509f9/` |
 | [`fig5_fig6_real_data/`](fig5_fig6_real_data/) | Figs. 5–6: bootstrap fits on the real data (data not included) | `software_84509f9/` |
+| [`real_data_comparators/`](real_data_comparators/) | Section V: edgewise FDR tests and CPM as comparators for the Logistic SpINNEr edges (data not included) | none (Statistics and Machine Learning Toolbox) |
 
 Each folder has its own `README.md` with the design, how to run it, and its outputs.
 
@@ -63,14 +64,15 @@ The experiments use `maxIters = 100` ADMM iterations (the default is 50000) and 
   logistic methods, which is why the scripts for Fig. 1, Figs. 5–6 and the simulation prediction point to
   `software_84509f9/`. The relocation runs of Figs. 2–3 used a toolbox download from August 2026 whose commit
   was not recorded; it most likely already contained `3f07a54`, and the scripts point to `software/`.
-- **Seeds.** Figs. 1(f), 2–4 and the simulation prediction experiment are seeded. Figs. 1(a)–(e), 1(g) and the
+- **Seeds.** Figs. 1(f), 2–4, the simulation prediction experiment and the real-data comparators are seeded. Figs. 1(a)–(e), 1(g) and the
   bootstrap of Figs. 5–6 were run without a fixed seed, so a rerun reproduces them only up to Monte Carlo
   variation.
 - **Paths.** The original scripts used absolute paths on the machines they ran on; in this repository they were
   replaced by paths relative to each script. Apart from this and from comments, the experiment code is as run.
 - **Included results.** Small summary files that the plotting scripts read (the Fig. 1 result files, the
   Figs. 2–3 summary CSVs, the Fig. 4 λ values and summary CSV, and the simulation prediction summary CSVs) are
-  included, so the figures can be redrawn without rerunning the fits.
+  included, so the figures can be redrawn without rerunning the fits. The real-data comparators include the
+  group-level summary CSVs behind the numbers reported in Section V, but no subject-level results.
 
 ## License
 
