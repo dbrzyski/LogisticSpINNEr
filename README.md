@@ -25,6 +25,7 @@ in the manuscript. Large result files are not included; every one of them can be
 | [`fig4_solver_timing/`](fig4_solver_timing/) | Fig. 4: computation time of the IRLS solvers | `software/` |
 | [`simulation_prediction/`](simulation_prediction/) | Section IV-F: out-of-sample AUC in simulation | `software_84509f9/` |
 | [`fig5_fig6_real_data/`](fig5_fig6_real_data/) | Figs. 5–6: bootstrap fits on the real data (data not included) | `software_84509f9/` |
+| [`fig5_colorbar/`](fig5_colorbar/) | Fig. 5: the colorbar placed next to the BrainNet rendering, recomputed from the bootstrap estimates | none |
 | [`real_data_comparators/`](real_data_comparators/) | Section V: edgewise FDR tests and CPM as comparators for the Logistic SpINNEr edges (data not included) | none (Statistics and Machine Learning Toolbox) |
 
 Each folder has its own `README.md` with the design, how to run it, and its outputs.

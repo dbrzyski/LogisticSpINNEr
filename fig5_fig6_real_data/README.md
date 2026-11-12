@@ -1,6 +1,6 @@
 # Figs. 5–6: bootstrap fits on the real data
 
-**The data are not included.** They are subject-level resting-state fMRI connectivity matrices and cannot be
+**The data are not included.** They are subject-level task-based fMRI connectivity matrices and cannot be
 shared publicly. To run the scripts, place the two data files in `data/` (see the header of
 `generate_bootstrap_results.m` for their format).
 
@@ -18,4 +18,6 @@ shared publicly. To run the scripts, place the two data files in `data/` (see th
 
 The edges in Figs. 5–6 are those nonzero in at least 90% of the bootstrap fits, with their median coefficient,
 restricted to the 200 cortical regions (41 edges). The figures were drawn with BrainNet Viewer (Fig. 5) and a
-circular network graph (Fig. 6); the scripts for this last selection and drawing step are not included.
+circular network graph (Fig. 6); the scripts for this drawing step are not included. The selection itself is
+reproduced by [`../fig5_colorbar/make_fig5_colorbar.m`](../fig5_colorbar/), which redraws the Fig. 5 colorbar,
+and by [`../real_data_comparators/`](../real_data_comparators/).
