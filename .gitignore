@@ -1,0 +1,19 @@
+# Large or regenerable outputs: rerun the scripts to recreate them.
+# Small inputs the plotting scripts need (Fig. 1 results, Fig. 4 lambdas) are tracked explicitly below.
+*.mat
+!fig1_simulations/a-e_heatmaps/output/B_ESTIMS.mat
+!fig1_simulations/f_sample_size/results.mat
+!fig1_simulations/g_signal_strength/results_sigStr_sweep_relative_iter50.mat
+!fig4_solver_timing/lambdas/*.mat
+results_smoke/
+recomputed_summaries/
+logs/
+*.out
+*.err
+*.asv
+*.pdf
+*.png
+.DS_Store
+
+# Real data are not distributed.
+fig5_fig6_real_data/data/
