@@ -5,7 +5,7 @@ shared publicly. To run the scripts, place the two data files in `data/` (see th
 `generate_bootstrap_results.m` for their format).
 
 - **Sample:** n = 160 subjects (78 with and 82 without a family history of alcoholism), after one subject with
-  missing values was dropped; 214 × 214 connectivity matrices (200 Schaefer cortical regions + 14 others),
+  missing values was dropped; 214 × 214 connectivity matrices (200 Schaefer cortical regions + 14 subcortical),
   without global signal regression, low-sucrose session.
 - **Model:** Logistic SpINNEr with an intercept, W with ones off the diagonal and zeros on it, λ tuned by
   5-fold CV within each bootstrap sample (15 × 15 grid, `maxIters = 100`). Toolbox: `../software_84509f9/`.

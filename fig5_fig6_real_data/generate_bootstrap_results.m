@@ -2,7 +2,7 @@
 %
 % Data (not included in this repository): data/GSRandNonGSRarrays.mat with
 % 214 x 214 x 161 resting-state connectivity arrays (200 Schaefer cortical
-% regions + 14 others), of which this script uses AA_NOGSR_low (no global
+% regions + 14 subcortical), of which this script uses AA_NOGSR_low (no global
 % signal regression, low-sucrose session), and data/gen_hist_alcohol.csv with
 % family history of alcoholism (FHP / FHN) in column x. One subject's matrix
 % has missing values and is dropped, giving n = 160 (78 FH+, 82 FH-).
